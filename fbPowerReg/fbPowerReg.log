@@ -1,0 +1,48 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\fbPowerReg.net
+Start Time: Thu Nov 13 03:48:26 2025
+solver = Normal
+Maximum thread count: 6
+tnom = 27
+temp = 27
+method = trap
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\fbPowerReg.net(3): Missing value, assuming 0V @ DC.
+
+Vvar VCC 0
+^^^^^^^^^^
+.step rload=10
+.step rload=20
+.step rload=30
+.step rload=40
+.step rload=50
+.step rload=60
+.step rload=70
+.step rload=80
+.step rload=90
+.step rload=100
+Total elapsed time: 0.852 seconds.
+
+Files loaded:
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\fbPowerReg.net
+C:\Users\Gabriel\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Gabriel\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\LM358.LIB
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\TIP32C.LIB
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\DZ_2V4.LIB
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\fbPowerReg\BD139.LIB
+
+Measurement "vout_8v" FAIL'ed
+
+Measurement: vout_12v
+  step	V(Vout)	at
+     1	4.43951320648	12
+     2	4.43951320648	12
+     3	4.43951320648	12
+     4	4.43951320648	12
+     5	4.43951320648	12
+     6	4.43951320648	12
+     7	4.43951320648	12
+     8	4.43951320648	12
+     9	4.43951320648	12
+    10	4.43951320648	12
+Measurement "line_reg_percent" FAIL'ed
