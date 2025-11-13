@@ -1,0 +1,73 @@
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\serialPowerReg\serialReg.net(16): Corrected wrong sign of increment.
+.step param Rload 100 10 10
+                        ^^^
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\serialPowerReg\serialReg.net
+Start Time: Wed Nov 12 23:23:23 2025
+solver = Normal
+Maximum thread count: 6
+tnom = 27
+temp = 27
+method = trap
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\serialPowerReg\serialReg.net(4): Missing value, assuming 0V @ DC.
+
+Vvar VCC 0
+^^^^^^^^^^
+.step rload=10
+.step rload=20
+.step rload=30
+.step rload=40
+.step rload=50
+.step rload=60
+.step rload=70
+.step rload=80
+.step rload=90
+.step rload=100
+Total elapsed time: 0.861 seconds.
+
+Files loaded:
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\serialPowerReg\serialReg.net
+C:\Users\Gabriel\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Gabriel\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\SerialPowerReg\BD139.LIB
+C:\Users\Gabriel\Documents\Graduacao\6-periodo\Circuitos\SerialPowerReg\DZENER_6V2.LIB
+
+
+Measurement: vout_8v
+  step	V(Vout)	at
+     1	5.27752733231	8
+     2	5.30159568787	8
+     3	5.31394529343	8
+     4	5.32228183746	8
+     5	5.32857751846	8
+     6	5.3336353302	8
+     7	5.33786249161	8
+     8	5.34149312973	8
+     9	5.34467506409	8
+    10	5.34750699997	8
+
+Measurement: vout_12v
+  step	V(Vout)	at
+     1	5.33741378784	12
+     2	5.35806894302	12
+     3	5.36943340302	12
+     4	5.37730121613	12
+     5	5.38332223892	12
+     6	5.38820028305	12
+     7	5.39230012894	12
+     8	5.3958363533	12
+     9	5.39894485474	12
+    10	5.40171861649	12
+
+Measurement: line_reg_percent
+  step	(100*(Vout_12V - Vout_8V)/4)
+     1	1.4971613884
+     2	1.41183137894
+     3	1.38720273972
+     4	1.37548446655
+     5	1.36861801147
+     6	1.36412382126
+     7	1.36094093323
+     8	1.35858058929
+     9	1.35674476624
+    10	1.3552904129
